@@ -1,0 +1,23 @@
+.container {
+    background-color: steelblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.controlContainer {
+    background-color: teal;
+    box-shadow: 5px 2px 15px 5px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    height: 100vh;
+    flex: 0.25;
+    top: 0;
+}
+
+.todoListContainer {
+    flex: 0.75;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

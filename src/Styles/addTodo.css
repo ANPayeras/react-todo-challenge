@@ -1,0 +1,44 @@
+.containerAdd {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formAdd {
+    background-color: white;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.containerFilters {
+    background-color: white;
+    margin-top: 20px;
+    width: 80%;
+    height: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputsForm {
+    background-color: rgba(11, 161, 136, 0.342);
+    text-align: center;
+    width: 100%;
+}
+
+.btnForm {
+    width: 100%;
+}
