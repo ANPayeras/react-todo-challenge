@@ -5,7 +5,6 @@ const initialState = {
 }
 
 export default function reducer(state = initialState, { type, payload }) {
-    console.log(payload)
     switch (type) {
         case GET_TODOS:
             return {
