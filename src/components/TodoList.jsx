@@ -12,7 +12,7 @@ function TodoList() {
 
     useEffect(() => {
         dispatch(getTodos())
-    }, [])
+    }, [dispatch])
 
     return (
         <div className='container'>
